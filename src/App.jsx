@@ -8,7 +8,7 @@ import "./App.css";
 // recreating the Stripe object on every render.
 // loadStripe is initialized with your real test publishable API key.
 
-const promise = loadStripe("pk_test_51J8Kw5B9cqnobfcYAeT5zszTQA31zCP7YouhUvfRNKkQqvyCsCfTOBLLEumwYa3UcSRrtsbIuzbWdCdEL88RyqQP00fS6FuIKH");
+const promise = loadStripe("my key");
 
 function App() {
 
